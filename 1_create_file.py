@@ -6,3 +6,5 @@ ws = wb.active # 현재 활성화된 sheet 를 가져옴
 ws.title = "jaewonsheet" # sheet 의 이름을 변경
 
 wb.save("sample.xlsx")
+
+wb.close()
